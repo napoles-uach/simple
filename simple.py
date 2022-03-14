@@ -3,7 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from spring import spring
-st.title('Ley de Hooke :+1:')
+st.title('Ley de Hooke')
 k=st.number_input('Constante de fuerza K:',5)
 #st.button('click')
 #y=st.number_input('give pos y')
