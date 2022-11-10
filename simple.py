@@ -7,7 +7,7 @@ st.sidebar.header("Aplicacion realizada como software didactico de apoyo a la Ma
 st.sidebar.subheader("D. C. Jose Manuel Napoles Duarte")
 st.sidebar.subheader("D. C. Juan Pedro Palomares Baez")
 st.sidebar.subheader("M. C. Carlos de la Vega Cobos")
-st.sidebar.header("De la Facultad de Ciencias Quimicas de la UACH")
+st.sidebar.header("de la Facultad de Ciencias Quimicas de la UACH")
 st.sidebar.image("logoFCQ.png")
 st.title('Ley de Hooke')
 k=st.number_input('Constante de fuerza K [N/m]:',5)
