@@ -3,6 +3,12 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from spring import spring
+st.sidebar.header("Aplicacion realizada como software didactico de apoyo a la Materia Fisica Basica II, por:")
+st.sidebar.subheader("D. C. Jose Manuel Napoles Duarte")
+st.sidebar.subheader("D. C. Juan Pedro Palomares Baez")
+st.sidebar.subheader("M. C. Carlos de la Vega Cobos")
+st.sidebar.header("De la Facultad de Ciencias Quimicas de la UACH")
+st.sidebar.image("https://github.com/napoles-uach/snell/blob/main/logofcq.png")
 st.title('Ley de Hooke')
 k=st.number_input('Constante de fuerza K:',5)
 #st.button('click')
